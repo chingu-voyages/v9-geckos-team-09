@@ -10,13 +10,23 @@ class App extends React.Component {
   }
 
   render() {
-
     return (
       <div className="App">
         <header className="App-header">Soon to be a language learning app
         </header>
-        <WordListDisplay words={this.state.knownWords} />
-        <Reader />
+        <WordListDisplay 
+          words={this.state.knownWords} 
+          types={this.state.typesToShow}
+          changeTypes={this.changeToShow}
+        />
+        <TestPage 
+          words={this.state.knownWords}
+          transMode={this.state.translationMode}
+          switchModeClick={this.switchModeHandler}
+          userAns={this.state.userAnswer}
+          testQ={this.state.sentences}
+          changeAns={this.ChangeAnswerHandler}
+        />
       </div>
     );
   } 
