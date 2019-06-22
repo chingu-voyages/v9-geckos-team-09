@@ -16,6 +16,7 @@ class App extends React.Component {
         <header className="App-header">Soon to be a language learning app
         </header>
         <WordListDisplay words={this.state.knownWords} />
+        <Reader />
       </div>
     );
   } 
