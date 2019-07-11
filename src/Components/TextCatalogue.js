@@ -14,10 +14,10 @@ if (props.savedTexts !== '') {
         let textTime = item.timeAndDate.slice(0, 8)
         return (
             <tr key={item.timeAndDate} id={item.timeAndDate}>
-                <th><a href='#/' onClick={props.goToReader} id={item.title}>{item.title}</a></th>
-                <th className='text-date'>{textDate}</th>
-                <th className='text-time'>{textTime}</th>
-                <th><span onClick={props.deleteFromCatalogue} title='Delete' className='close-button'>      &times;</span></th>
+                <td><a href='#/' onClick={props.goToReader} id={item.title}>{item.title}</a></td>
+                <td className='text-date'>{textDate}</td>
+                <td className='text-time'>{textTime}</td>
+                <td><span onClick={props.deleteFromCatalogue} title='Delete' className='close-button'>      &times;</span></td>
             </tr>
         )
     })
