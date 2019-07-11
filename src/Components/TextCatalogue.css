@@ -9,27 +9,33 @@
     margin-left: 120px;
     margin-right: 120px;
     margin-top: 20px;
-    padding-top: 40px;
+    padding: 40px;
     background: #EFF6F6;
 }
 
 .close-button {
-    font-size: 20px;
+    font-size: 22px;
     color: red;
     cursor: pointer;
-
 }
 
 .text-date {
-    font-weight: lighter;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 .text-time {
-    font-weight: lighter;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 a {
     text-decoration: none !important
+}
+
+td {
+    text-align: left !important;
+}
+
+h3 {
+    padding-left: 20px;
+    padding-bottom: 20px;
 }

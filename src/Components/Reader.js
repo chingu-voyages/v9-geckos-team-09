@@ -188,7 +188,7 @@ class Reader extends React.Component {
                                 <Button variant='primary' onClick={this.saveText} className='button btn-lg'>Save</Button>
                             </div>
                         </div>
-                        <div id='main-area' className="form-group main-area col-lg-6 rounded">
+                        <div id='main-area' className="form-group main-area-paste col-lg-6 rounded">
                             <input className="form-control text-area" ref="myTitleArea" placeholder='Enter title...' onChange={this.handleChangeTitle} value={this.state.currentTitle}></input>
                             <textarea className="form-control text-area" id='textArea' ref='myTextArea' rows='15' cols='80' placeholder='Paste your text here...' value={this.state.userTextInput} onChange={this.handleChangeText}></textarea>
                             {blankAlert}

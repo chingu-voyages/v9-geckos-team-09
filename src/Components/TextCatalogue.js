@@ -27,13 +27,7 @@ return (
     
     <div className='catalogue-wrapper'>
     <table className='table'>
-        <thead>
-            <tr>
-                <th scope="col">Title</th>
-                <th scope="col">Date</th>
-                <th scope="col">Time</th>
-            </tr>
-        </thead>
+        <h3>Your saved texts: </h3>
         <tbody>
             {textsArray}
         </tbody>
