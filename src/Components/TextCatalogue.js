@@ -25,7 +25,7 @@ if (props.savedTexts !== '') {
 
 return (
     
-    <div className='wrapper'>
+    <div className='catalogue-wrapper'>
     <table className='table'>
         <thead>
             <tr>

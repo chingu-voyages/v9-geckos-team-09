@@ -1,11 +1,15 @@
 .table {
-    width: 65%;
+    width: 100%;
     margin: auto;
     font-size: 20px;
 }
 
-.wrapper {
+.catalogue-wrapper {
+    margin-left: 120px;
+    margin-right: 120px;
     margin-top: 20px;
+    padding-top: 40px;
+    background: #EFF6F6;
 }
 
 .close-button {
