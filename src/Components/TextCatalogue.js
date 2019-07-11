@@ -15,8 +15,8 @@ if (props.savedTexts !== '') {
         return (
             <tr key={item.timeAndDate} id={item.timeAndDate}>
                 <th><a href='#/' onClick={props.goToReader} id={item.title}>{item.title}</a></th>
-                <th>{textDate}</th>
-                <th>{textTime}</th>
+                <th className='text-date'>{textDate}</th>
+                <th className='text-time'>{textTime}</th>
                 <th><span onClick={props.deleteFromCatalogue} title='Delete' className='close-button'>      &times;</span></th>
             </tr>
         )
