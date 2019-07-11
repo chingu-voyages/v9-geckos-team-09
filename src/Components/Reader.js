@@ -181,14 +181,14 @@ class Reader extends React.Component {
         if (this.props.mode === 'paste'){
 
             return (
-                <div className='reader-wrapper'>
+                <div className='reader-wrapper rounded'>
                     <div className='row flex-nowrap'> 
                         <div className='col-lg-3 button-area'>
                             <div className='btn-group-vertical'>
                                 <Button variant='primary' onClick={this.saveText} className='button btn-lg'>Save</Button>
                             </div>
                         </div>
-                        <div id='main-area' className="form-group main-area col-lg-6">
+                        <div id='main-area' className="form-group main-area col-lg-6 rounded">
                             <input className="form-control text-area" ref="myTitleArea" placeholder='Enter title...' onChange={this.handleChangeTitle} value={this.state.currentTitle}></input>
                             <textarea className="form-control text-area" id='textArea' ref='myTextArea' rows='15' cols='80' placeholder='Paste your text here...' value={this.state.userTextInput} onChange={this.handleChangeText}></textarea>
                             {blankAlert}
@@ -202,7 +202,7 @@ class Reader extends React.Component {
     )} else if (this.props.mode === 'read'){
 
             return (
-                <div className='reader-wrapper'>
+                <div className='reader-wrapper rounded'>
                     <div className='row flex-nowrap'>
                         <div className='col-lg-3 button-area'>
                             <div className='btn-group-vertical'>
@@ -212,7 +212,7 @@ class Reader extends React.Component {
                                 <Button variant='primary' className='button btn-lg' onClick={this.deleteText}>Delete</Button>
                             </div>
                         </div>
-                        <div className='col-lg-6 main-area'>
+                        <div className='col-lg-6 main-area rounded'>
                             <h2 className='text-title'>{this.props.title}</h2>
                             <div className='text-box'>{this.props.text}</div>
                             {saveAlert}
@@ -227,14 +227,14 @@ class Reader extends React.Component {
     } else if (this.props.mode === 'edit-saved') {
 
             return (
-                <div className='reader-wrapper'>
+                <div className='reader-wrapper rounded'>
                     <div className='row  flex-nowrap'>
                         <div className='col-lg-3 button-area'>
                             <div className='btn-group-vertical'>
                                 <Button variant='primary' className='button btn-lg' onClick={this.saveEditedText}>Save</Button>
                             </div>
                         </div>
-                        <div className='main-area col-lg-6'>
+                        <div className='main-area col-lg-6 rounded'>
                             <input className='form-control text-area' value={this.state.currentTitle} onChange={this.handleChangeTitle}></input>
                             <textarea className='form-control text-area' rows='20' cols='80' value={this.state.userTextInput} onChange={this.handleChangeText}></textarea> 
                             {blankAlert}
@@ -249,7 +249,7 @@ class Reader extends React.Component {
     } else if (this.props.mode === 'study') {
 
             return (
-                <div className='reader-wrapper'>
+                <div className='reader-wrapper rounded'>
                     <div>
                         <div className='text-box'>
                             <GrabbedText title={this.props.title} text={this.props.text} knownWords={this.props.knownWords} editText={this.editSavedText} deleteText={this.deleteText}/>
