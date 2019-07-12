@@ -48,10 +48,22 @@
     min-width: 50px;
 }
 
+@media (max-width: 991px) {
+    .button {
+        margin-top: 0px;
+    }
+}
+
 .button-area {
     text-align: center;
     margin-bottom: 100px;
     min-width: 50px;
+}
+
+@media (max-width: 991px) {
+    .button-area {
+        margin-bottom: 0px;
+    }
 }
 
 .alert {
