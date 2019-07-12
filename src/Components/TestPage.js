@@ -2,6 +2,7 @@ import React from 'react';
 import './TestPage.css';
 import {Button, Form, Toast} from  'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.css';
+import './global.css'
 
 const TestPage = (props) => {  
     
@@ -32,7 +33,7 @@ const TestPage = (props) => {
   
   return (
       <div id='testpage'>
-        <div className='testpage-wrapper rounded'>
+        <div className='wrapper rounded'>
           <h2>Translate the following</h2>
           <p id='question'>{questionSentence}</p>
           <Form onSubmit={handleSubmit} >

@@ -1,5 +1,6 @@
 import React from 'react'
 import './TextCatalogue.css'
+import './global.css'
 
 const TextCatalogue = (props) => {
 
@@ -25,7 +26,7 @@ if (props.savedTexts !== '') {
 
 return (
     
-    <div className='catalogue-wrapper'>
+    <div className='wrapper'>
     <h3>Your saved texts: </h3>
     <table className='table'>
         <tbody>

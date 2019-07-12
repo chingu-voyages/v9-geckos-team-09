@@ -2,6 +2,7 @@ import React from 'react'
 import {Button} from  'react-bootstrap'
 import 'bootstrap/dist/css/bootstrap.css'
 import './Reader.css'
+import './global.css'
 
 const GrabbedText = (props) => {
 

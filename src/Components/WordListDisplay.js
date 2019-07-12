@@ -3,6 +3,7 @@ import WordListCheckbox from './WordListCheckbox';
 import { Container, Row, Col, Button } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.css';
 import './Wordlist.css';
+import './global.css'
 
 const WordListDisplay = (props) =>  {
     var wordList = ['the']; 
@@ -35,7 +36,7 @@ const WordListDisplay = (props) =>  {
     
     return (
         <div>
-            <div className='wordlist-wrapper'>
+            <div className='wrapper'>
             <Container>
                 <Row>
                   <Col>

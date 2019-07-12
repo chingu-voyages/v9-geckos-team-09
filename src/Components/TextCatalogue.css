@@ -5,14 +5,6 @@
     text-align: left;
 }
 
-.catalogue-wrapper {
-    margin-left: 120px;
-    margin-right: 120px;
-    margin-top: 20px;
-    padding: 40px;
-    background: #EFF6F6;
-}
-
 .close-button {
     font-size: 22px;
     color: red;

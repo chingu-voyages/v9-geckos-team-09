@@ -4,6 +4,7 @@ import {Button} from  'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.css';
 import Toast from 'react-bootstrap/Toast'
 import './Reader.css'
+import './global.css'
 
 class Reader extends React.Component {
     constructor(props) {
@@ -181,7 +182,7 @@ class Reader extends React.Component {
         if (this.props.mode === 'paste'){
 
             return (
-                <div className='reader-wrapper rounded'>
+                <div className='wrapper rounded'>
                     <div className='row flex-nowrap'> 
                         <div className='col-lg-3 button-area'>
                             <div className='btn-group-vertical'>
@@ -202,7 +203,7 @@ class Reader extends React.Component {
     )} else if (this.props.mode === 'read'){
 
             return (
-                <div className='reader-wrapper rounded'>
+                <div className='wrapper rounded'>
                     <div className='row flex-nowrap'>
                         <div className='col-lg-3 button-area'>
                             <div className='btn-group-vertical'>
@@ -227,7 +228,7 @@ class Reader extends React.Component {
     } else if (this.props.mode === 'edit-saved') {
 
             return (
-                <div className='reader-wrapper rounded'>
+                <div className='wrapper rounded'>
                     <div className='row  flex-nowrap'>
                         <div className='col-lg-3 button-area'>
                             <div className='btn-group-vertical'>
@@ -249,7 +250,7 @@ class Reader extends React.Component {
     } else if (this.props.mode === 'study') {
 
             return (
-                <div className='reader-wrapper rounded'>
+                <div className='wrapper rounded'>
                     <div>
                         <div className='text-box'>
                             <GrabbedText title={this.props.title} text={this.props.text} knownWords={this.props.knownWords} editText={this.editSavedText} deleteText={this.deleteText}/>

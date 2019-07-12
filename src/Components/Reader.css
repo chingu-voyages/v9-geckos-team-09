@@ -50,15 +50,6 @@
     font-size: 15px;
 }
 
-.reader-wrapper {
-    margin-left: 120px;
-    margin-right: 120px;
-    margin-top: 20px;
-    padding-top: 40px;
-    background: #EFF6F6;
-    min-height: 72vh;
-}
-
 .main-area {
     background: white;
     padding: 20px;
