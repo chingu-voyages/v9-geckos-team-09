@@ -15,10 +15,20 @@ th {
 
 #word-search-input {
   width: 100%;
-}
+} 
 
 @media(max-width: 652px) {
   #word-search-input {
     max-width: 80%;
   }
 }
+
+.col {
+  min-width: 300px;
+}
+
+#word-list-content {
+  display: flex;
+  flex-wrap: wrap;
+}
+

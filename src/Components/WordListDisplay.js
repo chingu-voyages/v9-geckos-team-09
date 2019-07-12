@@ -37,26 +37,30 @@ const WordListDisplay = (props) =>  {
     return (
         <div>
             <div className='wrapper'>
-            <Container>
-                <Row>
-                  <Col>
+            
+            <div>
+                
+                <div id='word-list-content'>
+                  <div className='col'>
                      <WordListCheckbox 
                        selection={props.types} 
                        click={props.changeTypes}
                        changeSearch={props.changeSearch}
                        changeCheckBox={props.changeCheckBox}
                      />
-                  </Col>
-                  <Col>
+                  </div>
+                  <div className='col'>
                      <h2>Words I know</h2>
                      <div id="wordList"><p>{wordList}</p></div>
                      { dictionaryJSX }
                      <p>Click on a word to see its {props.words.foreignLang} translation</p>
                      <p>Or I can test your ability to translate simple random sentences on the test page. <br />
                         (Click the tab above)</p>
-                  </Col>
-                </Row>
-            </Container>
+                  </div>
+                </div>
+                
+            </div>
+            
             </div>
         </div>
     )
