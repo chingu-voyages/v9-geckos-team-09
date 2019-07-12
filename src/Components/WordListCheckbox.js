@@ -25,7 +25,7 @@ const WordListCheckbox = (props) => {
             <p></p>
             <Form>
               <Form.Group>
-                <Form.Control type='text' placeholder='Search for a word' onChange={props.changeSearch} />
+                <Form.Control id='word-search-input' type='text' placeholder='Search for a word' onChange={props.changeSearch} />
               </Form.Group>
               <Form.Group>
                 <Form.Check 

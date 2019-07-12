@@ -13,3 +13,12 @@ th {
   text-align: center !important;
 }
 
+#word-search-input {
+  width: 100%;
+}
+
+@media(max-width: 652px) {
+  #word-search-input {
+    max-width: 80%;
+  }
+}
