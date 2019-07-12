@@ -57,3 +57,8 @@
     margin-bottom: 40px;
     min-height: 60vh;
 }
+
+.flex-box {
+    display: flex;
+    flex-wrap: wrap-reverse;
+}

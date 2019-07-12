@@ -183,7 +183,7 @@ class Reader extends React.Component {
 
             return (
                 <div className='wrapper rounded'>
-                    <div className='row flex-nowrap'> 
+                    <div className='row flex-box'> 
                         <div className='col-lg-3 button-area'>
                             <div className='btn-group-vertical'>
                                 <Button variant='primary' onClick={this.saveText} className='button btn-lg'>Save</Button>
