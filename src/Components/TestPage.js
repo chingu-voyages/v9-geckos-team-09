@@ -39,6 +39,7 @@ const TestPage = (props) => {
           <Form onSubmit={handleSubmit} >
             <Form.Group>
               <Form.Control 
+                id='trans-input'
                 type='text' 
                 placeholder={placeHolderText}
                 value={props.userAns} 
@@ -48,6 +49,7 @@ const TestPage = (props) => {
           </Form>
           <p></p>
           <div id='answer'>{markedAns}</div>
+          </div>
           <p>If your translation matches what I'm thinking of, then your words will be green. 
             If a word is red, then your translation is different to mine. <br />
             If you get the complete sentence, I will reward you with a new question!</p>
@@ -66,7 +68,6 @@ const TestPage = (props) => {
             </Toast.Body>
           </Toast>
         </div>
-      </div>
   )
 }
 

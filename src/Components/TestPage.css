@@ -28,6 +28,36 @@ Form {
     padding: 10px;
 }
 
+#question {
+    max-width: 100%;
+}
+
+@media(max-width: 1200px) {
+    #question {
+      width: 40vw;
+    }
+  }
+
+  #trans-input {
+    width: 100%;
+}
+
+@media(max-width: 1200px) {
+    #trans-input {
+      width: 40vw;
+    }
+  }
+
+  #answer {
+    max-width: 100%;
+}
+
+@media(max-width: 1200px) {
+    #answer {
+      width: 40vw;
+    }
+  }
+
 .goodWord {
     color:green;
 }
