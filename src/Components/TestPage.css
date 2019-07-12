@@ -7,8 +7,8 @@
     background: gray;
     color: white;
     font-size: 20px;
-    margin: auto;
-    width: 80vmin;
+    /* margin: auto;
+    width: 80vmin;  */
     border: 2px solid black;
     border-radius: 25%;
 }
@@ -16,48 +16,17 @@
 #answer {
     background: lightgray;
     font-size: 20px;
-    margin: auto;
-    width: 80vmin;
+    /* margin: auto;
+    width: 80vmin;  */
     border: 2px solid black;
     border-radius: 25%;
 }
 
 Form {
-    width: 80vmin;
-    margin: auto;
+    /* width: 80vmin; 
+    margin: auto;  */
     padding: 10px;
 }
-
-#question {
-    max-width: 100%;
-}
-
-@media(max-width: 1200px) {
-    #question {
-      width: 40vw;
-    }
-  }
-
-  #trans-input {
-    width: 100%;
-}
-
-@media(max-width: 1200px) {
-    #trans-input {
-      width: 40vw;
-    }
-  }
-
-  #answer {
-    max-width: 100%;
-    margin-bottom: 100px;
-}
-
-@media(max-width: 1200px) {
-    #answer {
-      width: 40vw;
-    }
-  }
 
 .goodWord {
     color:green;
@@ -80,4 +49,11 @@ Form {
     color: white;
     justify-content: space-between;
 }
+
+  #test-page-content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      
+  }
 
