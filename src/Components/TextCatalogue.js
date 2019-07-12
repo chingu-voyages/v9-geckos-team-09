@@ -26,8 +26,8 @@ if (props.savedTexts !== '') {
 return (
     
     <div className='catalogue-wrapper'>
+    <h3>Your saved texts: </h3>
     <table className='table'>
-        <h3>Your saved texts: </h3>
         <tbody>
             {textsArray}
         </tbody>

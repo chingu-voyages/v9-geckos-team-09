@@ -1,6 +1,6 @@
 #testpage {
     margin: auto;
-    width: 90vmin;
+    width: 100vw;
 }
 
 #question {
@@ -48,4 +48,12 @@ Form {
     background: rgba(141, 175, 46, 0.95);
     color: white;
     justify-content: space-between;
+}
+
+.testpage-wrapper {
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-top: 20px;
+    padding: 40px;
+    background: #EFF6F6;
 }
