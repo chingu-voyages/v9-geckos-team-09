@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/v9-geckos-team-09/static/css/main.dd7316aa.chunk.css",
+    "main.css": "/v9-geckos-team-09/static/css/main.366e3813.chunk.css",
     "main.js": "/v9-geckos-team-09/static/js/main.12d0998a.chunk.js",
     "main.js.map": "/v9-geckos-team-09/static/js/main.12d0998a.chunk.js.map",
     "runtime~main.js": "/v9-geckos-team-09/static/js/runtime~main.644353f9.js",
@@ -9,9 +9,9 @@
     "static/js/2.3d37863e.chunk.js": "/v9-geckos-team-09/static/js/2.3d37863e.chunk.js",
     "static/js/2.3d37863e.chunk.js.map": "/v9-geckos-team-09/static/js/2.3d37863e.chunk.js.map",
     "index.html": "/v9-geckos-team-09/index.html",
-    "precache-manifest.e532f2460be5e48b123b29dbed13e5a1.js": "/v9-geckos-team-09/precache-manifest.e532f2460be5e48b123b29dbed13e5a1.js",
+    "precache-manifest.418bc4107a383a9ff1d2b0d388e308e9.js": "/v9-geckos-team-09/precache-manifest.418bc4107a383a9ff1d2b0d388e308e9.js",
     "service-worker.js": "/v9-geckos-team-09/service-worker.js",
     "static/css/2.22a7d4ef.chunk.css.map": "/v9-geckos-team-09/static/css/2.22a7d4ef.chunk.css.map",
-    "static/css/main.dd7316aa.chunk.css.map": "/v9-geckos-team-09/static/css/main.dd7316aa.chunk.css.map"
+    "static/css/main.366e3813.chunk.css.map": "/v9-geckos-team-09/static/css/main.366e3813.chunk.css.map"
   }
 }
